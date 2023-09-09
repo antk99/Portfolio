@@ -7,7 +7,7 @@ export default function socialMedia() {
     return null;
   }
   return (
-    <div className="social-media-div">
+    <div className="contact-links">
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
