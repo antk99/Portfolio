@@ -142,15 +142,15 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "",
-      company: "",
-      companylogo: null,
-      date: "",
-      desc: "",
-      descBullets: ["", ""]
+      role: "Founding Software Engineer",
+      company: "Gathera",
+      companylogo: require("./assets/images/gatheraLogo.png"),
+      date: "Jan 2023 – Present",
+      desc: "I co-founded Gathera, a social networking platform for Android & iOS that allows users to meet and discover their cities. Learn more at gathera.ca",
+      descBullets: []
     }
   ]
 };
